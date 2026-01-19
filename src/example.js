@@ -1,11 +1,9 @@
-// This file has intentional linting errors for demonstration
-const unusedVariable = "This variable is never used";
-
+// This file demonstrates proper linting compliance
 function greet(name) {
-  console.log("Hello, " + name);
-  return "Greeting sent"
+  console.log('Hello, ' + name);
+  return 'Greeting sent';
 }
 
-const message = "Welcome to our application"
+const message = 'Welcome to our application';
 
-export default greet
+export default greet;
